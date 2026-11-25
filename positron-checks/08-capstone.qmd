@@ -1,0 +1,140 @@
+---
+title: "Positron Check 08: Timed Capstone"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+Checks 01 to 07 tested one skill at a time, with hints. This one tests whether Positron has become the tool you reach for without thinking.
+
+It is one ordinary Coursera lab, done start to finish, with a clock running and the docs closed.
+
+## The rules
+
+- One full Coursera lab, from opening the folder to the final commit.
+- RStudio and VS Code stay closed.
+- No Positron docs unless you are stuck for more than five minutes. Log every lookup.
+- No AI features.
+- The R half is capped at 20 minutes, as always.
+
+**Time box:** the lab's own time, plus 20 minutes for R, plus 10 for this file.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Coursera lab (course, module, lab name) | |
+| Coursera's time estimate for the lab | |
+| Start time | |
+
+**Predict first:** how long will the lab take you in Positron, and which step will slow you down most?
+
+**Answer:**
+
+## Python half: the lab
+
+Do the lab. As you go, tick each thing you did without looking anything up.
+
+- [ ] Opened the repository and landed in the right environment
+- [ ] Opened the lab notebook on the right kernel
+- [ ] Inspected the data in the Data Explorer
+- [ ] Used the Variables pane instead of printing
+- [ ] Found an earlier plot and traced it to its code
+- [ ] Opened help for a function inside Positron
+- [ ] Formatted code with the formatter
+- [ ] Used the debugger or the Console to chase at least one error
+- [ ] Committed the finished lab from inside Positron
+
+**End time for the Python half:**
+
+## R half (20-minute cap)
+
+On the lab's dataset, write a short R Quarto document with one table and one plot, render it, and commit it.
+
+- [ ] Started an R session beside the Python one
+- [ ] Viewed the data in the Data Explorer from R
+- [ ] Ran cells and saw output where I expected it
+- [ ] Formatted with Air
+- [ ] Rendered to HTML
+- [ ] Committed
+
+**Minutes used:**
+
+## Lookups
+
+Every time you opened the docs, searched the web, or asked for help.
+
+| What I looked up | Which check covered it | Minutes lost |
+|---|---|---|
+| | | |
+| | | |
+
+## Where you stand
+
+Score each area again, today. Put your original score from that check beside it.
+
+| Area | Check | Score then | Score now |
+|---|---|---|---|
+| Workspace, layout, keybindings | 01 | | |
+| Interpreters and environments | 02 | | |
+| Exploring data | 03 | | |
+| Notebooks, scripts, formatting | 04 | | |
+| Quarto | 05 | | |
+| Debugging | 06 | | |
+| Git, extensions, settings | 07 | | |
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+## The verdict
+
+**Was your time prediction right? What slowed you down?**
+
+**Answer:**
+
+**What is still on the miss list with a verdict of "still missing"?**
+
+**Answer:**
+
+**You love RStudio. After eight checks, what do you still miss about it, and is that a reason to keep it for anything?**
+
+**Answer:**
+
+**What does Positron now do better than RStudio and VS Code did for you?**
+
+**Answer:**
+
+**The 30-day clock started on November 30. Since then, on which days, if any, did you open RStudio or VS Code for data science work, and why?**
+
+**Answer:**
+
+**Is the settings portability decision from Check 07 carried out, or only made?**
+
+**Answer:**
+
+**In one sentence: is the transition done?**
+
+**Answer:**
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

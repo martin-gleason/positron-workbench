@@ -1,0 +1,219 @@
+---
+title: "Positron Check 06: Debug in Both Languages"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+Debugging is where people go back to the tool they trust. If you can find a bug in Positron as fast as you would in RStudio or VS Code, you have no reason left to keep them open.
+
+Both halves use the same small broken function, so you are comparing the debuggers and not the problems.
+
+## What you will have at the end
+
+- A Python bug found with the debugger and fixed
+- The same bug found in R with the debugger and fixed
+- A view on how each debugger compares with the one you used before
+
+**Time box:** 40 minutes, split evenly. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- **Find the bug with the debugger, not by reading the code.** The point is the tool.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+
+## Python half
+
+Save this as `debug_me.py` in this repository. It should return the largest increase between neighbouring values.
+
+```python
+def running_max_gap(values):
+    gap = 0
+    for i in range(len(values)):
+        step = values[i + 1] - values[i]
+        if step > gap:
+            gap = step
+    return gap
+
+
+print(running_max_gap([3, 8, 2, 9, 4]))
+```
+
+### 1. Fail, then look around
+
+Run the file in the Python console and let it fail. Without rerunning anything, inspect the state at the moment of failure from the Console.
+
+*Hint: "Python in Positron", the debugging section.*
+
+**How did you get into the failed frame?**
+
+**Answer:**
+
+**What were `i` and `len(values)` when it failed?**
+
+**Answer:**
+
+### 2. Use breakpoints
+
+Set a breakpoint on the line that computes `step`. Start a debug session the way you would have in VS Code.
+
+**Predict first:** does starting a Python debug session work the same here as in VS Code?
+
+**Answer:**
+
+**After testing, were you right? What differed?**
+
+**Answer:**
+
+Step through the loop and watch `i` and `step` change.
+
+**Where did you watch them?**
+
+**Answer:**
+
+### 3. Fix it
+
+Fix the function. The correct result for the list above is `7`.
+
+**What was the bug, in one sentence?**
+
+**Answer:**
+
+### 4. Use it on real work
+
+Set a breakpoint inside one cell or function of your current lab and pause there once.
+
+**What did you inspect?**
+
+**Answer:**
+
+## R half (20-minute cap)
+
+Save this as `debug_me.R`. It is the same function with the same bug.
+
+```r
+running_max_gap <- function(x) {
+  gap <- 0
+  for (i in seq_along(x)) {
+    step <- x[i + 1] - x[i]
+    if (step > gap) {
+      gap <- step
+    }
+  }
+  gap
+}
+
+running_max_gap(c(3, 8, 2, 9, 4))
+```
+
+### 5. Watch a breakpoint change state
+
+Set a breakpoint on the line that computes `step`. Do not run anything yet.
+
+*Hint: "Debugging R code".*
+
+**Predict first:** what does the breakpoint look like before you run the file, and what will make it change?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+### 6. Step and watch
+
+Run to the breakpoint. Step through the loop from the Console and from the toolbar. Add `i` and `step` as watched expressions.
+
+**Which Console letters step over, step into, and continue?**
+
+**Answer:**
+
+**Predict first:** you are paused inside the `for` loop and choose Step Out. Where do you end up?
+
+**Answer:**
+
+**After testing, were you right? How does that differ from other debuggers you have used?**
+
+**Answer:**
+
+### 7. Pause on the error
+
+Remove the breakpoint. Tell Positron to pause whenever R raises an error, then run the file.
+
+**Where did the first pause land, and how did you get from there to your own function?**
+
+**Answer:**
+
+### 8. Edit and fix
+
+Fix the function. The correct result is `7`.
+
+**What happened to your breakpoints when you edited the file? What do you have to do about it?**
+
+**Answer:**
+
+### 9. Compare
+
+**You used `browser()` and RStudio's debugger for years. What is better here, and what is worse?**
+
+**Answer:**
+
+## Checks
+
+- [ ] I inspected a failed Python call after the fact
+- [ ] I started a Python debug session with a breakpoint and stepped through a loop
+- [ ] I know why an R breakpoint is gray and what turns it red
+- [ ] I can step through R code from the Console and from the toolbar
+- [ ] I can make R pause on an error and find my own frame
+- [ ] Both functions return 7
+- [ ] I did the R half in 20 minutes or less
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

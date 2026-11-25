@@ -1,0 +1,177 @@
+---
+title: "Positron Check 02: Interpreters and Environments"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+RStudio gave you one R session per project. VS Code made you pick a Python interpreter per window. Positron runs several sessions of both languages at once, and that is where people lose track of which session their code went to.
+
+This check makes you sure, every time, where a line of code will run.
+
+## What you will have at the end
+
+- AI features switched off, per the project's house rule
+- A Python environment for the certificate that Positron finds on its own
+- An R console and a Python console running side by side
+- A reliable way to tell which session is active
+
+**Time box:** 40 minutes on top of your lab. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+
+Bring that lab's notebook and its data into this repository before you begin. Put them under `coursera/`, in a folder for the course.
+
+## House rule: AI off
+
+AI features are out of scope for this project. Find the settings that switch them off and set them. Positron has a general switch and separate ones for the console, notebooks, and Git commit messages.
+
+*Hint: "Configure AI features". The setting names to look for include `ai.enabled`, `console.assistantActions.enabled`, `notebook.ai.enabled`, and `git.suggestions.enabled`.*
+
+**Which settings did you change, and at user level or folder level?**
+
+**Answer:**
+
+## Python half
+
+### 1. Give the certificate its own environment
+
+This repository needs one Python environment that every lab uses. Create it from inside Positron, or confirm the one you already have. Install what your current lab imports.
+
+*Hint: "Discovering Python Installations".*
+
+**Which tool did you choose (uv, venv, or conda), and why?**
+
+**Answer:**
+
+**Predict first:** you close Positron and reopen the folder. Which Python will start, and how will Positron explain its choice?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+### 2. Open the lab notebook on the right kernel
+
+Open your lab notebook and confirm it is running on the repository's environment, not on a system Python.
+
+*Hint: "Positron Notebook Editor".*
+
+**How did you confirm it?**
+
+**Answer:**
+
+**Predict first:** you also have a Python console open. Is a variable you create in the notebook visible in that console?
+
+**Answer:**
+
+**After testing, were you right? What does that tell you about notebook sessions?**
+
+**Answer:**
+
+### 3. Break it and recover
+
+Restart the Python console session.
+
+**Predict first:** what will the Variables pane show afterward?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+## R half (20-minute cap)
+
+### 4. Run R beside Python
+
+Start an R console session without closing the Python one. Create one object in each.
+
+*Hint: "Managing Interpreters".*
+
+**How do you tell, at a glance, which session is active?**
+
+**Answer:**
+
+### 5. Know where a line will land
+
+Make the R session the active one. Open a `.py` file and run one line from it.
+
+**Predict first:** where does that line run?
+
+**Answer:**
+
+**After testing, were you right? State the rule in your own words.**
+
+**Answer:**
+
+### 6. Compare with what you knew
+
+**In RStudio, how would you have run two R versions, or R and Python, side by side? What does Positron change for you?**
+
+**Answer:**
+
+**Rename both sessions to something you will recognise next week. What did you call them?**
+
+**Answer:**
+
+## Checks
+
+- [ ] AI features are off and I know which settings did it
+- [ ] The repository has one Python environment and Positron starts it without being told
+- [ ] My lab notebook runs on that environment
+- [ ] I can run an R console and a Python console together
+- [ ] I can say where a line of code will run before I run it
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

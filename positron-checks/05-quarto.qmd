@@ -1,0 +1,173 @@
+---
+title: "Positron Check 05: Quarto in Both Languages"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+Quarto is where your analysis becomes something another person reads. You already know it from RStudio. The open question is whether authoring it in Positron feels as good, in R and in Python.
+
+Positron also offers a choice RStudio users will recognise: output in the Console, or output inline under each cell. You should pick on purpose.
+
+## What you will have at the end
+
+- A short Python Quarto document built from your lab
+- A short R Quarto document on the same data
+- Both rendered to HTML
+- A decision on Console output versus inline output
+
+**Time box:** 45 minutes on top of your lab. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+| Quarto version Positron is using | |
+
+Keep the two documents separate. Do not put R and Python cells in the same file for this check.
+
+## Python half
+
+### 1. Write a short document
+
+Create `lab-summary-py.qmd`. Give it three Python cells taken from your lab: load the data, one table, one plot. Add two sentences saying what the plot shows.
+
+Run the cells one statement at a time.
+
+*Hint: "Quarto".*
+
+**Where did the output go?**
+
+**Answer:**
+
+### 2. Turn on inline output
+
+Find the setting that shows output under each cell and turn it on. Run the cells again.
+
+*Hint: "Inline output".*
+
+**Predict first:** you define a variable in the Console, then use it in a cell of this document. With inline output on, will the cell find it?
+
+**Answer:**
+
+**After testing, were you right? What does that tell you about how the document's session relates to the Console?**
+
+**Answer:**
+
+**Which working directory do the cells run in?**
+
+**Answer:**
+
+### 3. Control a cell
+
+Hide the code of one cell in the rendered output and give the plot a caption.
+
+**Paste the cell options you used. Which option style does inline output read?**
+
+**Answer:**
+
+### 4. Render and preview
+
+Render the document to HTML and view it inside Positron.
+
+**Where does the preview appear?**
+
+**Answer:**
+
+**Switch to the visual editor and try to run a cell from there. What happened?**
+
+**Answer:**
+
+## R half (20-minute cap)
+
+### 5. The same shape in R
+
+Create `lab-summary-r.qmd` with three R cells on the same dataset: load, one table, one plot. Keep it short. This tests the tool, so stop at 20 minutes even if the plot is plain.
+
+Format one cell using the formatter, without formatting the whole file.
+
+*Hint: "Formatting R code with Air".*
+
+**Which command formatted the single cell?**
+
+**Answer:**
+
+### 6. Render and compare
+
+Render it to HTML.
+
+**Compared with RStudio, what is better about writing Quarto here?**
+
+**Answer:**
+
+**What is worse, or missing?**
+
+**Answer:**
+
+### 7. Decide
+
+**Console output or inline output: which will be your default, and for which kind of work?**
+
+**Answer:**
+
+**Is the setting on at user level or only in this folder? Is that where you want it?**
+
+**Answer:**
+
+## Checks
+
+- [ ] I wrote and rendered a Python Quarto document in Positron
+- [ ] I wrote and rendered an R Quarto document in Positron
+- [ ] I know how inline output changes which session my cells run in
+- [ ] I can set cell options and see them take effect
+- [ ] I chose a default for output and can say why
+- [ ] I did the R half in 20 minutes or less
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

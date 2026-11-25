@@ -1,0 +1,199 @@
+---
+title: "Positron Check 01: Set Up the Workspace"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+You are fast in RStudio because your hands know where everything is. This check rebuilds that knowledge in Positron, in the one repository you will use for these checks and for every Coursera lab.
+
+It has no analysis in it. Checks 02 onward add code.
+
+## What you will have at the end
+
+- The `positron-workbench` repository cloned and open as a Positron workspace
+- A layout you chose on purpose
+- A keybindings decision you can defend
+- This file rendered to HTML
+
+**Time box:** 30 to 45 minutes. Stop at 45 and log what is left.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- Type your answers under each **Answer:** line.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Positron version (target: 2026.11.x) | |
+| Machine | |
+
+## Tasks
+
+### 1. Clone the repository, then open it two ways
+
+You are probably reading this on GitHub. Clone `positron-workbench` to your Mac from inside Positron, without using a terminal. Close the window. Then open the same folder from a terminal with `positron .`
+
+If the terminal does not recognise `positron`, that is a finding. Fix it and note what you did.
+
+*Hint: "Git Version Control", "Launch Positron from a Terminal", and "The Rproj File".*
+
+**Predict first:** one of your old RStudio projects has an `.Rproj` file in it. What will Positron do with that file?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+### 2. Drive with the Command Palette
+
+Run three commands from the Command Palette that you would normally reach with the mouse. Then find the migration walkthroughs and open both the RStudio one and the VS Code one. Skim them. Do not complete them.
+
+*Hint: "Command Palette".*
+
+**The three commands you ran:**
+
+**Answer:**
+
+**One thing in either walkthrough you did not already know:**
+
+**Answer:**
+
+### 3. Choose a layout
+
+Try the three layout presets: Stacked, Side-by-Side, and Notebook. Pick one for script and Quarto work and one for notebook work.
+
+*Hint: "Layout".*
+
+**Your pick for scripts and Quarto, and why:**
+
+**Answer:**
+
+**Your pick for notebooks, and why:**
+
+**Answer:**
+
+**Which RStudio pane did you look for and not find where you expected?**
+
+**Answer:**
+
+### 4. Decide on keybindings
+
+Positron can use RStudio's keyboard shortcuts through the setting `workbench.keybindings.rstudioKeybindings`. You now split your time evenly between R and Python, and you came to Python through VS Code.
+
+**Predict first:** with the setting on, what will `Ctrl-1` and `Ctrl-2` do?
+
+**Answer:**
+
+Turn the setting on, reload the window, and test your prediction. Work with it for five minutes. Then decide.
+
+*Hint: "RStudio Keybindings".*
+
+**Decision (on or off):**
+
+**Answer:**
+
+**Reason. Which set of habits do you want your hands to have in 2030?**
+
+**Answer:**
+
+### 5. Scope a setting to this folder
+
+Make one setting apply to this folder only. Format-on-save is a good candidate.
+
+*Hint: "Settings and Extensions".*
+
+**Where did Positron write the setting?**
+
+**Answer:**
+
+**Should that file be committed to Git? Why or why not?**
+
+**Answer:**
+
+### 6. Look at what VS Code would bring over
+
+Run `Preferences: Import Settings` and read the preview before you accept or decline. Either choice is fine. The check is that you chose knowingly.
+
+*Hint: "Migrating to Positron from VS Code".*
+
+**Accepted or declined, and why:**
+
+**Answer:**
+
+**If accepted, what came across? If declined, what would have?**
+
+**Answer:**
+
+### 7. Render this file
+
+Render this document to HTML from inside Positron.
+
+**Did it render on the first try? If not, what did the error say?**
+
+**Answer:**
+
+### 8. Record it
+
+Add your scores to `PROGRESS.md`. Commit this file and `PROGRESS.md` from inside Positron and push.
+
+**Did the push work on the first try? If not, what did you have to set up?**
+
+**Answer:**
+
+## Checks
+
+- [ ] I cloned the repository from inside Positron, and it opens from the menu and from the terminal
+- [ ] I can open the Command Palette without looking for it
+- [ ] I have a layout for scripts and a layout for notebooks
+- [ ] The keybindings setting is where I decided it should be
+- [ ] One setting lives in this folder only, and I know which file holds it
+- [ ] This file rendered to HTML
+- [ ] My answers and scores are committed and pushed
+
+## Score
+
+Circle one. Score how it felt, not how it should have felt.
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**My score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+Log anything that made you want to open RStudio or VS Code. An empty table is a valid result.
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## For review
+
+Anything you want looked at, argued with, or explained.
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

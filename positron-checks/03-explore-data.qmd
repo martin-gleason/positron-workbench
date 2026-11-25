@@ -1,0 +1,197 @@
+---
+title: "Positron Check 03: Explore Data"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+Looking at data is most of what you did in RStudio's Environment pane and viewer, and most of what you added extensions for in VS Code. Positron builds it in: Variables, Data Explorer, Plots, and Help.
+
+If these four panes feel natural, most of your daily work has moved.
+
+## What you will have at the end
+
+- Your lab's data inspected without writing inspection code
+- One Data Explorer step kept as code
+- Plots from both languages found, traced to their source, and saved
+- Help found without leaving Positron
+
+**Time box:** 40 minutes on top of your lab. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+| Dataset file name | |
+
+## Python half
+
+### 1. Open the data three ways
+
+Load your lab's dataset in Python. Then get it into the Data Explorer three different ways: from the Variables pane, from the editor, and from the Console.
+
+*Hint: "Data Explorer".*
+
+**The three ways you used:**
+
+**Answer:**
+
+**Which will you use by default, and why?**
+
+**Answer:**
+
+### 2. Answer questions without code
+
+Using only the Data Explorer, answer these about your dataset.
+
+**Which column has the most missing values, and how many?**
+
+**Answer:**
+
+**Pick one numeric column. What does its distribution look like?**
+
+**Answer:**
+
+**Filter to a subset that matters for your lab. What filter did you apply, and how many rows remain?**
+
+**Answer:**
+
+### 3. Keep a step as code
+
+A filter in the Data Explorer is temporary. Turn the one you just made into code you can paste into your lab.
+
+*Hint: "Migrating to Positron from VS Code", the Data Explorer section.*
+
+**Paste the code Positron gave you. Would you have written it the same way?**
+
+**Answer:**
+
+### 4. Open the raw file
+
+Open the dataset file directly from the file list, without loading it in Python.
+
+**Predict first:** does this need a running Python session?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+**The docs disagree with each other.** The RStudio migration pages say Positron has no data import widget yet. The Data Explorer page describes an **Import Data** button that writes loading code for you. Which is true in your version?
+
+**Answer:**
+
+### 5. Work the Plots pane
+
+Make at least two plots in your lab. Then, in the Plots pane: go back to the first one, jump from it to the code that made it, and save it as a PNG.
+
+*Hint: "Plots Pane".*
+
+**Anything here that VS Code did not give you?**
+
+**Answer:**
+
+### 6. Get help in place
+
+Look up one pandas or seaborn function you used today without opening a browser.
+
+*Hint: "Help Pane".*
+
+**How did you open it?**
+
+**Answer:**
+
+## R half (20-minute cap)
+
+Use the same dataset file. This half tests the tool. It is not a translation of the lab, so stop at 20 minutes.
+
+### 7. Load and view
+
+Read the file into R and open it in the Data Explorer with a label of your choosing. Then send a piped expression to the viewer: the same data, filtered or mutated, without saving it to a new object first.
+
+**Paste the line you ran:**
+
+**Answer:**
+
+### 8. One plot
+
+Make one ggplot from the dataset.
+
+**Predict first:** will the R plot share a history with your Python plots, or have its own?
+
+**Answer:**
+
+**After testing, were you right? How does Positron show which session made a plot?**
+
+**Answer:**
+
+Save the plot as SVG or PDF.
+
+### 9. Compare with the Environment pane
+
+**What did RStudio's Environment pane or data viewer do that you looked for here and did not find?**
+
+**Answer:**
+
+**What does the Data Explorer do that RStudio's viewer did not?**
+
+**Answer:**
+
+## Checks
+
+- [ ] I can open a data frame in the Data Explorer from the Variables pane, the editor, and the Console
+- [ ] I found missing values and a distribution without writing code
+- [ ] I turned a Data Explorer step into code
+- [ ] I can move through plot history and get from a plot to its code
+- [ ] I can open help for a function inside Positron
+- [ ] I did the R half in 20 minutes or less
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

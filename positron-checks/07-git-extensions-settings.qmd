@@ -1,0 +1,218 @@
+---
+title: "Positron Check 07: Git, Extensions, and Settings"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+This check closes the loop on two things. Your work has to be under version control from inside Positron. And your charter says the Positron transition is not finished until the settings portability decision is made.
+
+You also have six checks' worth of miss-list entries. This is where each one gets resolved or accepted.
+
+## What you will have at the end
+
+- An ignore file that covers everything this repository should not track
+- Every miss-list entry marked as solved, replaced, or still missing
+- **The settings portability decision, made and written down**
+
+**Time box:** 45 minutes. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+| Number of miss-list entries from Checks 01 to 06 | |
+
+## Python half
+
+### 1. Audit what Git is tracking
+
+This repository started with a two-line ignore file. You have since added an environment, notebooks, data, rendered output, and R files.
+
+*Hint: "Git Version Control".*
+
+**Predict first:** what else should Git ignore here? List it before you look at what the Source Control view shows.
+
+**Answer:**
+
+**After looking, what did you miss? Is anything already committed that should not have been?**
+
+**Answer:**
+
+Extend the ignore file, stage what belongs, and commit.
+
+**Should rendered HTML be tracked or ignored in this repository? Why?**
+
+**Answer:**
+
+### 2. Read a notebook diff
+
+Commit your lab notebook. Rerun one cell so its output changes, save, and look at the diff.
+
+**Predict first:** given what you learned in Check 04 about what Positron saves, how noisy will the diff be?
+
+**Answer:**
+
+**After looking, were you right?**
+
+**Answer:**
+
+### 3. Branch and return
+
+Create a branch, make a small change to `scratch.py`, commit it, switch back, and merge.
+
+**You did this in VS Code before. What, if anything, is different here?**
+
+**Answer:**
+
+### 4. Work the miss list
+
+Go through every miss-list entry from Checks 01 to 06 that involves Python or a VS Code extension. For each one, search Positron's Extensions view.
+
+*Hint: "Extensions".*
+
+**Predict first:** which of your VS Code extensions will not be available, and why?
+
+**Answer:**
+
+| Entry | Found in Positron? | Built in instead? | Verdict (solved, replaced, still missing) |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+
+## R half (20-minute cap)
+
+### 5. Commit the R side
+
+Commit `scratch.R` and your R Quarto document.
+
+**Predict first:** RStudio left `.RData`, `.Rhistory`, and `.Rproj` files in project folders. Which of those will Positron create?
+
+**Answer:**
+
+**After checking the folder, were you right?**
+
+**Answer:**
+
+**What did RStudio's Git pane do that you miss, if anything?**
+
+**Answer:**
+
+### 6. Bring one habit across
+
+Pick one of these and do it:
+
+- Run an RStudio addin you actually used, from inside Positron.
+- Recreate one RStudio snippet you relied on.
+
+*Hint: "Migrate to Positron from RStudio" and "Creating R snippets".*
+
+**Which did you pick, and did it work?**
+
+**Answer:**
+
+### 7. Work the R miss list
+
+| Entry | Found in Positron? | Built in instead? | Verdict (solved, replaced, still missing) |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## The decision: settings portability
+
+Your charter requires this decision before the transition counts as complete.
+
+**First, the facts.**
+
+**How many machines will run Positron in the next 12 months?**
+
+**Answer:**
+
+**Find your user settings file on disk. What is its full path?**
+
+**Answer:**
+
+**Does Positron have a built-in way to sync settings between machines? Check, do not assume.**
+
+**Answer:**
+
+**Then, the options.**
+
+| Option | What it is | Check before choosing |
+|---|---|---|
+| A | A settings-sync extension that stores settings, keybindings, snippets, and the extension list in a Git repository | Is it in Positron's Extensions view today? Does it work when you try it? |
+| B | A private repository holding your settings, keybindings, and snippets files, linked into Positron's user folder on each machine | Do you know the user folder path on each machine? |
+| C | Leave settings local | Is one machine really all you will use? |
+
+**Decision (A, B, or C):**
+
+**Answer:**
+
+**Reason:**
+
+**Answer:**
+
+**If A or B, what is the first step and when will you do it?**
+
+**Answer:**
+
+## Checks
+
+- [ ] The ignore file covers everything that should not be tracked, and I can say why
+- [ ] I committed, branched, and merged from inside Positron
+- [ ] I read a notebook diff and understood why it looked the way it did
+- [ ] Every miss-list entry has a verdict
+- [ ] The settings portability decision is written above
+- [ ] I did the R half in 20 minutes or less
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+New entries from this check only.
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude

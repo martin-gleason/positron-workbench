@@ -1,0 +1,208 @@
+---
+title: "Positron Check 04: Notebooks, Scripts, and Formatting"
+subtitle: "Four Years to PhD · Phase 1 · Positron transition"
+author: "Marty Gleason"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Why
+
+Coursera hands you notebooks. Real analysis work is usually scripts. You need both to feel ordinary in Positron, and you need the formatter and the package list to work without you thinking about them.
+
+This is also the check most likely to send you back to VS Code, so log every pull you feel.
+
+## What you will have at the end
+
+- Your lab notebook worked in Positron's notebook editor
+- A Python script and an R script, each run cell by cell
+- Format-on-save working for both languages in this folder
+- A quick way to see which packages a session has
+
+**Time box:** 45 minutes on top of your lab. The R half is capped at 20.
+
+## How to work this file
+
+- Each task states an outcome. Finding the how is part of the check.
+- Where a task asks you to predict, write the prediction before you test it.
+- The hint names the Positron docs page to read if you get stuck. Use it only after trying.
+
+## Before you start
+
+| Item | Your entry |
+|---|---|
+| Date | |
+| Start time | |
+| Coursera lab you are on (course, module, lab name) | |
+
+## Python half
+
+### 1. Work the lab in the notebook editor
+
+Do your lab in Positron's notebook editor. Arrange the window so the notebook, your variables, and your plots are visible together.
+
+*Hint: "Positron Notebook Editor".*
+
+**How did you arrange it?**
+
+**Answer:**
+
+**Display a data frame as a cell's output. What can you do with it there that a printed table would not let you do?**
+
+**Answer:**
+
+### 2. Know what gets saved
+
+**Predict first:** when you save the notebook, does the `.ipynb` file keep cell outputs? Does it keep execution counts?
+
+**Answer:**
+
+Check the settings that control this.
+
+**After checking, were you right? Why would Positron choose those defaults?**
+
+**Answer:**
+
+### 3. Move from notebook to script
+
+Copy three or four cells from the lab into a new file, `scratch.py`, as a script with cell markers. Run it one cell at a time, then run everything above the last cell in one action.
+
+*Hint: "Code Cells".*
+
+**What marks a cell in a Python script?**
+
+**Answer:**
+
+**Which keystroke runs the current cell and moves to the next?**
+
+**Answer:**
+
+### 4. Let Ruff do the formatting
+
+Make `scratch.py` ugly on purpose: uneven spacing, long lines, mixed quotes. Format it. Then set format-on-save for Python in this folder only.
+
+*Hint: "Python in Positron".*
+
+**What did Ruff change that you would not have bothered to fix by hand?**
+
+**Answer:**
+
+**Paste the lines Positron added to the folder's settings file:**
+
+**Answer:**
+
+### 5. Read the type checker
+
+Write one line in `scratch.py` that calls a function with the wrong kind of argument. Do not run it.
+
+**Did Positron flag it before you ran anything? What did it say?**
+
+**Answer:**
+
+### 6. Look at your packages
+
+Open the Packages pane with the Python session active.
+
+*Hint: "Packages Pane".*
+
+**Which pandas version are you on?**
+
+**Answer:**
+
+**What does "attached" mean in this pane? Name one package that is installed but not attached.**
+
+**Answer:**
+
+Do not update anything mid-course. Note what is flagged as outdated and leave it.
+
+## R half (20-minute cap)
+
+### 7. A script in sections
+
+Create `scratch.R` with three short sections on your lab's dataset: load, summarise, plot. Mark the sections the way you would in RStudio. Run it section by section.
+
+*Hint: "Code Cells".*
+
+**Predict first:** will your RStudio-style section headers work as cell boundaries here?
+
+**Answer:**
+
+**After testing, were you right?**
+
+**Answer:**
+
+**Is the keystroke for running one line or statement the same as in RStudio?**
+
+**Answer:**
+
+### 8. Set up Air
+
+Positron ships with Air, an R formatter. Initialise it for this folder and get format-on-save working for R.
+
+*Hint: "Formatting R code with Air".*
+
+**Which files did that create or change?**
+
+**Answer:**
+
+**How does Air's output compare with how you format R by hand under the tidyverse style guide?**
+
+**Answer:**
+
+### 9. Packages, from the R side
+
+Switch the Packages pane to your R session and attach dplyr.
+
+**What changed in the pane?**
+
+**Answer:**
+
+**RStudio had a Packages tab with checkboxes. What do you gain or lose here?**
+
+**Answer:**
+
+## Checks
+
+- [ ] I completed a Coursera lab in Positron's notebook editor
+- [ ] I know what Positron saves into an `.ipynb` file
+- [ ] I can run a Python script and an R script cell by cell
+- [ ] Format-on-save works for Python and for R in this folder
+- [ ] I can check a package version without typing a command
+- [ ] I did the R half in 20 minutes or less
+
+## Score
+
+| Score | Meaning |
+|---|---|
+| 0 | Needed the docs for most tasks |
+| 1 | Got there, but slowly |
+| 2 | Fluent |
+| 3 | Faster than in RStudio or VS Code |
+
+**Python half score:**
+
+**R half score:**
+
+**End time and total minutes:**
+
+## Miss list
+
+| What I reached for | Old tool | What I did instead | Still missing? |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Record it
+
+Add this check's scores to `PROGRESS.md`. Commit this file, `PROGRESS.md`, and the work you produced, from inside Positron, and push.
+
+## For review
+
+**Notes:**
+
+-----
+November 23, 2026
+
+#AI/Claude
