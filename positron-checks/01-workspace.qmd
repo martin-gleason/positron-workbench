@@ -151,22 +151,23 @@ Render this document to HTML from inside Positron.
 **Answer:**
 
 ### 8. Record it
+it didn't render on the first try due to missing jupyter/notebooks. this is an issue i need to explore -- setting up the use of quarto and python.
 
 Add your scores to `PROGRESS.md`. Commit this file and `PROGRESS.md` from inside Positron and push.
 
 **Did the push work on the first try? If not, what did you have to set up?**
-
+/Users/marty/Local_Dev_Projects/positron-workbench/, is not a git repository. Run `git -C "," init` to initialize it
 **Answer:**
-
+I had to do it from github, not from positron. 
 ## Checks
 
 - [ ] I cloned the repository from inside Positron, and it opens from the menu and from the terminal
-- [ ] I can open the Command Palette without looking for it
-- [ ] I have a layout for scripts and a layout for notebooks
-- [ ] The keybindings setting is where I decided it should be
-- [ ] One setting lives in this folder only, and I know which file holds it
-- [ ] This file rendered to HTML
-- [ ] My answers and scores are committed and pushed
+- [X] I can open the Command Palette without looking for it
+- [X] I have a layout for scripts and a layout for notebooks
+- [X] The keybindings setting is where I decided it should be
+- [X] One setting lives in this folder only, and I know which file holds it
+- [X] This file rendered to HTML
+- [x] My answers and scores are committed and pushed
 
 ## Score
 
@@ -174,15 +175,14 @@ Circle one. Score how it felt, not how it should have felt.
 
 | Score | Meaning |
 |---|---|
-| 0 | Needed the docs for most tasks |
-| 1 | Got there, but slowly |
+
 | 2 | Fluent |
-| 3 | Faster than in RStudio or VS Code |
+
 
 **My score:**
-
+2
 **End time and total minutes:**
-
+8:45 total time 40 minutes.
 ## Miss list
 
 Log anything that made you want to open RStudio or VS Code. An empty table is a valid result.
