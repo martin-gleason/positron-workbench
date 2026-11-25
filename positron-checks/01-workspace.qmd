@@ -34,10 +34,10 @@ It has no analysis in it. Checks 02 onward add code.
 
 | Item | Your entry |
 |---|---|
-| Date | |
-| Start time | |
+| Date | 11/24/26 |
+| Start time | 8:05pm|
 | Positron version (target: 2026.11.x) | |
-| Machine | |
+| Machine | My Mac |
 
 ## Tasks
 
@@ -52,10 +52,11 @@ If the terminal does not recognise `positron`, that is a finding. Fix it and not
 **Predict first:** one of your old RStudio projects has an `.Rproj` file in it. What will Positron do with that file?
 
 **Answer:**
-
+Well, I was reading this in positron, not on github. I know .Rproj is typically opened by positron.
 **After testing, were you right?**
 
 **Answer:**
+I reviewed the documentation. i was right that it will open a Rproj file but it positron doesn't store a specific file or .json setting unless specific chnages are made.
 
 ### 2. Drive with the Command Palette
 
@@ -64,12 +65,15 @@ Run three commands from the Command Palette that you would normally reach with t
 *Hint: "Command Palette".*
 
 **The three commands you ran:**
-
+- 
 **Answer:**
-
+- Command-shift-p to pull up the palette and set a new python interpreter.
+- Show cursor position
+- Clear Console
 **One thing in either walkthrough you did not already know:**
 
 **Answer:**
+Clearing the console from the command palette was good, as was adding github from the palete.
 
 ### 3. Choose a layout
 
@@ -84,17 +88,17 @@ Try the three layout presets: Stacked, Side-by-Side, and Notebook. Pick one for 
 **Your pick for notebooks, and why:**
 
 **Answer:**
-
+I like side by side, espeically given the size of my monitor. I don't want to do notebook work. Do I have to?
 **Which RStudio pane did you look for and not find where you expected?**
 
 **Answer:**
-
+None, I'm familiar enough with positron that I didn't need to look for anything. Except, of course, the library. this is a thing I need to work on,
 ### 4. Decide on keybindings
 
 Positron can use RStudio's keyboard shortcuts through the setting `workbench.keybindings.rstudioKeybindings`. You now split your time evenly between R and Python, and you came to Python through VS Code.
 
 **Predict first:** with the setting on, what will `Ctrl-1` and `Ctrl-2` do?
-
+cmd - 1 should pull up help, cmd-2 should pull up a different view.
 **Answer:**
 
 Turn the setting on, reload the window, and test your prediction. Work with it for five minutes. Then decide.
@@ -104,8 +108,9 @@ Turn the setting on, reload the window, and test your prediction. Work with it f
 **Decision (on or off):**
 
 **Answer:**
-
+It didn't do anything for cmd-1, cmd-2 pulled up a search view.
 **Reason. Which set of habits do you want your hands to have in 2030?**
+
 
 **Answer:**
 
@@ -118,11 +123,11 @@ Make one setting apply to this folder only. Format-on-save is a good candidate.
 **Where did Positron write the setting?**
 
 **Answer:**
-
+.vscode settings.json
 **Should that file be committed to Git? Why or why not?**
 
 **Answer:**
-
+I know we ignore this, but I dn't remember why. 
 ### 6. Look at what VS Code would bring over
 
 Run `Preferences: Import Settings` and read the preview before you accept or decline. Either choice is fine. The check is that you chose knowingly.
@@ -132,7 +137,7 @@ Run `Preferences: Import Settings` and read the preview before you accept or dec
 **Accepted or declined, and why:**
 
 **Answer:**
-
+Accepted to see what it would look like. 
 **If accepted, what came across? If declined, what would have?**
 
 **Answer:**
